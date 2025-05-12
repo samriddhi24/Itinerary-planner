@@ -14,7 +14,7 @@ class PlannerState(TypedDict):
 # Initialize LLM
 lln = ChatGroq(
     temperature=0,
-    groq_api_key="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",  # <-- Replace with your working key
+    groq_api_key="Enter Your API Key",  # <-- Replace with your working key
     model_name="llama-3.3-70b-versatile"
 )
 
